@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55AC362D1920CA75C4B74547 /* Pods_HealthKitTestData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0AF06415765ED1B9B91F2C /* Pods_HealthKitTestData.framework */; };
-		CA64439EFE0559EDD5D280A3 /* Pods_HealthKitTestDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BFE38530D4AB1D71BC5596 /* Pods_HealthKitTestDataTests.framework */; };
+		B1E4C0EA2A6384A0002A0F34 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = B1E4C0E92A6384A0002A0F34 /* SwiftDate */; };
 		E952CA3620E2F66E00CD12DD /* HKQuantityTypeRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952CA3520E2F66E00CD12DD /* HKQuantityTypeRanges.swift */; };
 		E952CA3820E4066B00CD12DD /* HKObjectTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952CA3720E4066B00CD12DD /* HKObjectTypes.swift */; };
 		E952CA3A20E41C6600CD12DD /* HKQuantityType+compatibleUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952CA3920E41C6600CD12DD /* HKQuantityType+compatibleUnit.swift */; };
@@ -17,28 +16,11 @@
 		E9779CC020E1E18F007D9912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9779CBE20E1E18F007D9912 /* Main.storyboard */; };
 		E9779CC220E1E190007D9912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9779CC120E1E190007D9912 /* Assets.xcassets */; };
 		E9779CC520E1E190007D9912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9779CC320E1E190007D9912 /* LaunchScreen.storyboard */; };
-		E9779CD020E1E191007D9912 /* HealthKitTestDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9779CCF20E1E191007D9912 /* HealthKitTestDataTests.swift */; };
 		E9BBA97520E1E2D0006C761C /* HKSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBA97420E1E2D0006C761C /* HKSampleData.swift */; };
 		E9BBA97920E1E499006C761C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BBA97820E1E499006C761C /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E9779CCC20E1E191007D9912 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9779CAF20E1E18F007D9912 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9779CB620E1E18F007D9912;
-			remoteInfo = HealthKitTestData;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		11529396D216466A278B87A2 /* Pods-HealthKitTestData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthKitTestData.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData.release.xcconfig"; sourceTree = "<group>"; };
-		28BFE38530D4AB1D71BC5596 /* Pods_HealthKitTestDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthKitTestDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		570484811F2996D50BD552D9 /* Pods-HealthKitTestData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthKitTestData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData.debug.xcconfig"; sourceTree = "<group>"; };
-		5884571DE894463383912E97 /* Pods-HealthKitTestDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthKitTestDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthKitTestDataTests/Pods-HealthKitTestDataTests.release.xcconfig"; sourceTree = "<group>"; };
-		7D0AF06415765ED1B9B91F2C /* Pods_HealthKitTestData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthKitTestData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3FD075359B9FD22031E0B8E /* Pods-HealthKitTestDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthKitTestDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthKitTestDataTests/Pods-HealthKitTestDataTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E952CA3520E2F66E00CD12DD /* HKQuantityTypeRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKQuantityTypeRanges.swift; sourceTree = "<group>"; };
 		E952CA3720E4066B00CD12DD /* HKObjectTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKObjectTypes.swift; sourceTree = "<group>"; };
 		E952CA3920E41C6600CD12DD /* HKQuantityType+compatibleUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKQuantityType+compatibleUnit.swift"; sourceTree = "<group>"; };
@@ -49,9 +31,6 @@
 		E9779CC120E1E190007D9912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9779CC420E1E190007D9912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9779CC620E1E190007D9912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9779CCB20E1E191007D9912 /* HealthKitTestDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthKitTestDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9779CCF20E1E191007D9912 /* HealthKitTestDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitTestDataTests.swift; sourceTree = "<group>"; };
-		E9779CD120E1E191007D9912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9BBA97420E1E2D0006C761C /* HKSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSampleData.swift; sourceTree = "<group>"; };
 		E9BBA97620E1E499006C761C /* HealthKitTestData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthKitTestData.entitlements; sourceTree = "<group>"; };
 		E9BBA97820E1E499006C761C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
@@ -62,41 +41,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E4C0EA2A6384A0002A0F34 /* SwiftDate in Frameworks */,
 				E9BBA97920E1E499006C761C /* HealthKit.framework in Frameworks */,
-				55AC362D1920CA75C4B74547 /* Pods_HealthKitTestData.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9779CC820E1E191007D9912 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA64439EFE0559EDD5D280A3 /* Pods_HealthKitTestDataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		123E7D36EF4BCB81711AC1FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				570484811F2996D50BD552D9 /* Pods-HealthKitTestData.debug.xcconfig */,
-				11529396D216466A278B87A2 /* Pods-HealthKitTestData.release.xcconfig */,
-				B3FD075359B9FD22031E0B8E /* Pods-HealthKitTestDataTests.debug.xcconfig */,
-				5884571DE894463383912E97 /* Pods-HealthKitTestDataTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E9779CAE20E1E18F007D9912 = {
 			isa = PBXGroup;
 			children = (
 				E9779CB920E1E18F007D9912 /* HealthKitTestData */,
-				E9779CCE20E1E191007D9912 /* HealthKitTestDataTests */,
 				E9779CB820E1E18F007D9912 /* Products */,
 				E9BBA97720E1E499006C761C /* Frameworks */,
-				123E7D36EF4BCB81711AC1FA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				E9779CB720E1E18F007D9912 /* HealthKitTestData.app */,
-				E9779CCB20E1E191007D9912 /* HealthKitTestDataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,21 +84,10 @@
 			path = HealthKitTestData;
 			sourceTree = "<group>";
 		};
-		E9779CCE20E1E191007D9912 /* HealthKitTestDataTests */ = {
-			isa = PBXGroup;
-			children = (
-				E9779CCF20E1E191007D9912 /* HealthKitTestDataTests.swift */,
-				E9779CD120E1E191007D9912 /* Info.plist */,
-			);
-			path = HealthKitTestDataTests;
-			sourceTree = "<group>";
-		};
 		E9BBA97720E1E499006C761C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E9BBA97820E1E499006C761C /* HealthKit.framework */,
-				7D0AF06415765ED1B9B91F2C /* Pods_HealthKitTestData.framework */,
-				28BFE38530D4AB1D71BC5596 /* Pods_HealthKitTestDataTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,39 +99,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9779CD420E1E191007D9912 /* Build configuration list for PBXNativeTarget "HealthKitTestData" */;
 			buildPhases = (
-				646399D7AA738DD2850F012F /* [CP] Check Pods Manifest.lock */,
 				E9779CB320E1E18F007D9912 /* Sources */,
 				E9779CB420E1E18F007D9912 /* Frameworks */,
 				E9779CB520E1E18F007D9912 /* Resources */,
-				3043982D4D859BD12178536C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = HealthKitTestData;
+			packageProductDependencies = (
+				B1E4C0E92A6384A0002A0F34 /* SwiftDate */,
+			);
 			productName = HealthKitTestData;
 			productReference = E9779CB720E1E18F007D9912 /* HealthKitTestData.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E9779CCA20E1E191007D9912 /* HealthKitTestDataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9779CD720E1E191007D9912 /* Build configuration list for PBXNativeTarget "HealthKitTestDataTests" */;
-			buildPhases = (
-				54E97E0B2895F2FADA874A74 /* [CP] Check Pods Manifest.lock */,
-				E9779CC720E1E191007D9912 /* Sources */,
-				E9779CC820E1E191007D9912 /* Frameworks */,
-				E9779CC920E1E191007D9912 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9779CCD20E1E191007D9912 /* PBXTargetDependency */,
-			);
-			name = HealthKitTestDataTests;
-			productName = HealthKitTestDataTests;
-			productReference = E9779CCB20E1E191007D9912 /* HealthKitTestDataTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,21 +121,19 @@
 		E9779CAF20E1E18F007D9912 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Ricky Kirkendall";
 				TargetAttributes = {
 					E9779CB620E1E18F007D9912 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1500;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 1;
 							};
 						};
-					};
-					E9779CCA20E1E191007D9912 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = E9779CB620E1E18F007D9912;
 					};
 				};
 			};
@@ -220,12 +146,14 @@
 				Base,
 			);
 			mainGroup = E9779CAE20E1E18F007D9912;
+			packageReferences = (
+				B1E4C0E82A6384A0002A0F34 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
 			productRefGroup = E9779CB820E1E18F007D9912 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E9779CB620E1E18F007D9912 /* HealthKitTestData */,
-				E9779CCA20E1E191007D9912 /* HealthKitTestDataTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,71 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9779CC920E1E191007D9912 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3043982D4D859BD12178536C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54E97E0B2895F2FADA874A74 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthKitTestDataTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		646399D7AA738DD2850F012F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthKitTestData-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9779CB320E1E18F007D9912 /* Sources */ = {
@@ -321,23 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9779CC720E1E191007D9912 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9779CD020E1E191007D9912 /* HealthKitTestDataTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E9779CCD20E1E191007D9912 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9779CB620E1E18F007D9912 /* HealthKitTestData */;
-			targetProxy = E9779CCC20E1E191007D9912 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E9779CBE20E1E18F007D9912 /* Main.storyboard */ = {
@@ -385,6 +233,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -396,6 +245,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -410,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +295,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -456,6 +307,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -464,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -475,85 +327,41 @@
 		};
 		E9779CD520E1E191007D9912 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570484811F2996D50BD552D9 /* Pods-HealthKitTestData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HealthKitTestData/HealthKitTestData.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W27BD2UEY4;
 				INFOPLIST_FILE = HealthKitTestData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Heal.HealthKitFakeData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E9779CD620E1E191007D9912 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11529396D216466A278B87A2 /* Pods-HealthKitTestData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HealthKitTestData/HealthKitTestData.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W27BD2UEY4;
 				INFOPLIST_FILE = HealthKitTestData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Heal.HealthKitFakeData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E9779CD820E1E191007D9912 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3FD075359B9FD22031E0B8E /* Pods-HealthKitTestDataTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3F5MZJU4SD;
-				INFOPLIST_FILE = HealthKitTestDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Heal.HealthKitTestDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKitTestData.app/HealthKitTestData";
-			};
-			name = Debug;
-		};
-		E9779CD920E1E191007D9912 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5884571DE894463383912E97 /* Pods-HealthKitTestDataTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3F5MZJU4SD;
-				INFOPLIST_FILE = HealthKitTestDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Heal.HealthKitTestDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKitTestData.app/HealthKitTestData";
 			};
 			name = Release;
 		};
@@ -578,16 +386,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9779CD720E1E191007D9912 /* Build configuration list for PBXNativeTarget "HealthKitTestDataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9779CD820E1E191007D9912 /* Debug */,
-				E9779CD920E1E191007D9912 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1E4C0E82A6384A0002A0F34 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1E4C0E92A6384A0002A0F34 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1E4C0E82A6384A0002A0F34 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9779CAF20E1E18F007D9912 /* Project object */;
 }
