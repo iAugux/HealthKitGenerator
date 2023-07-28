@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let sampleData = HKSampleData()
         sampleData.sampleTypes = hkTypes.writables
         sampleData.permission(successBlock: {
-            sampleData.writeDataSince(since: Date() - 20.days)
+            sampleData.writeDataSince(since: Date() - 1.years)
         })
     }
 
